@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" </head>
+
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Travel</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="C:\website\production_id_4055888 (1080p).mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Never Stop To </h2>
+                <h3>Exploring The World</h3>
+                <p>Traveling is an enriching adventure that broadens our horizons, connects us with diverse cultures, and creates lasting memories. From vibrant cities to serene landscapes, it opens our minds, fosters personal growth, and strengthens our
+                    resilience. Through shared experiences and new encounters, we discover the true essence of life.
+                </p>
+                <a href="home.html">Explore</a>
+            </div>
+            <ul class="social">
+                <li>
+                    <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
+                </li>
+            </ul>
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.bbc.com/news/world">News</a></li>
+                <li><a href="home.html">Country</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+        </script>
+    </body>
+
+</html>
